@@ -11,7 +11,7 @@ number = ""
 
 def click(value):
     global number
-    number += value
+    number -= value
     result_show.config(text=number)
 
 
